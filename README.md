@@ -18,3 +18,7 @@ Basic NLP steps for categorizing the E-commerce dataset include:-
 4. Model Building using ML Classifiers such as Multinomial Bayesian Classifier,SVM,Decison Tree,Random forest,Logistic regression.
 5. Testing
 6. Prediction 
+
+# Results
+We use TF-IDF vectorizer on the normalized product descriptions for text vectorization on Multinomial Bayes Classifier , and perform hyperparameter tuning . The tuned model obtains a validation accuracy of 0.9203.
+We employ the tuned model with the highest validation accuracy(Support Vector Machine) to predict the labels of the test observations and obtained a test accuracy of 0.96. We present the confusion matrix depicting the test set performance of the model.
